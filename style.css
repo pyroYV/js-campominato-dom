@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+ height: 100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+main {
+    background-color: tomato;
+}
+#start-game{
+    padding: 1rem;
+}
+
+.square {
+  
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.easy{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.medium{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.hard{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+}
+
+#minefield-wrapper{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 504px;
+    height: 504px;
+    background-color: lightcoral;
+
+}
+
+.border {
+    border: 2px solid whitesmoke;
+}
+
+.skyblue{
+    background-color: skyblue;
+}
+
+.bomb{
+    background-color: tomato;
+}
